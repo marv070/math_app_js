@@ -2,10 +2,10 @@ def valid_login(user,pass)
 approved = {'user' => '2222', 'marv070' => '1234','john' => '5555'}
  counter = 0
   approved.each do |username, password|
-    p"#{user}user params"
-    p "#{username}username of hash"
-    p"#{pass}pass from params"
-    p "#{password} password of hash "
+    # p"#{user}user params"
+    # p "#{username}username of hash"
+    # p"#{pass}pass from params"
+    # p "#{password} password of hash "
     if username == user && password == pass
       counter += 1
     end
